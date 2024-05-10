@@ -1,0 +1,292 @@
+body{
+    background-color: pink;
+}
+#page{
+    margin-left: 3%;
+    font-size: 32px;
+    font-style: oblique;
+}
+.baims{
+    margin-top: 0.5%;
+}
+
+#navbar{
+    display: flex;
+    gap: 3%;
+}
+
+.search{
+    width: 20%;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 1.5%;
+    background-color: pink;
+}
+
+.signup{
+    background-color: rgba(12, 4, 4, 0.864);
+    color: white;
+    width: 10%;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 1.5%;
+}
+
+.learn{
+    width: 50%;
+    height: 55px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#Landingpage{
+    display: flex;
+}
+
+.dribble{
+    height: 550px;
+    margin-left: 12%;
+}
+
+#About{
+    margin-left: 2%;
+    display: flex;
+    gap: 10%;
+}
+
+.about{
+    margin-left: 5%;
+}
+
+#Numbers{
+    margin-left: 2%;
+    display: flex;
+    gap: 15%;
+
+}
+
+#whitebackground{
+margin-top: 0.5%;
+background-color: white;}
+
+
+
+@media only screen and  (min-width: 280px)and (max-width: 750px){
+    body{
+        background-color: pink;
+    }
+    #page{
+        font-size: 18px;
+        font-style: oblique;
+    }
+    .baims{
+        margin-top: 0.5%;
+    }
+    
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    
+    .search{
+        width: 40%;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 1.5%;
+        background-color: pink;
+    }
+    
+    .signup{
+        background-color: rgba(12, 4, 4, 0.864);
+        color: white;
+        width: 20%;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 1.5%;
+    }
+    
+    .learn{
+        width: 70%;
+        height: 55px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+    
+    #Landingpage{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .dribble{
+        height: 250px;
+        margin-left: 12%;
+    }
+    
+    #About{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about{
+        margin-left: 5%;
+    }
+    
+    #Numbers{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+    
+    }
+    
+    #whitebackground{
+    margin-top: 0.5%;
+    background-color: white;}
+}
+
+
+
+@media only screen and  (min-width: 751px)and (max-width: 1024px){
+    body{
+        background-color: pink;
+    }
+    #page{
+        font-size: 18px;
+        font-style: oblique;
+    }
+    .baims{
+        margin-top: 0.5%;
+    }
+    
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    
+    .search{
+        width: 40%;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 1.5%;
+        background-color: pink;
+    }
+    
+    .signup{
+        background-color: rgba(12, 4, 4, 0.864);
+        color: white;
+        width: 20%;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 1.5%;
+    }
+    
+    .learn{
+        width: 70%;
+        height: 55px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+    
+    #Landingpage{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .dribble{
+        height: 250px;
+        margin-left: 12%;
+    }
+    
+    #About{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about{
+        margin-left: 5%;
+    }
+    
+    #Numbers{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+    
+    }
+    
+    #whitebackground{
+    margin-top: 0.5%;
+    background-color: white;}
+}
+   
+
+@media only screen and  (min-width: 1025px)and (max-width: 1200px){
+    
+    body{
+        background-color: pink;
+    }
+    #page{
+        font-size: 32px;
+        font-style: oblique;
+    }
+    .baims{
+        margin-top: 0.5%;
+    }
+    
+    #navbar{
+        display: flex;
+        gap: 5%;
+    }
+    
+    .search{
+        width: 20%;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 1.5%;
+        background-color: pink;
+    }
+    
+    .signup{
+        background-color: rgba(12, 4, 4, 0.864);
+        color: white;
+        width: 10%;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 1.5%;
+    }
+    
+    .learn{
+        width: 50%;
+        height: 55px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+    
+    #Landingpage{
+        display: flex;
+    }
+    
+    .dribble{
+        height: 600px;
+        margin-left: 7%;
+    }
+    
+    #About{
+        display: flex;
+        gap: 14%;
+    }
+    
+    .about{
+        margin-left: 5%;
+    }
+    
+    #Numbers{
+        display: flex;
+        gap: 20%;
+    
+    }
+    
+    #whitebackground{
+    margin-top: 0.5%;
+    background-color: white;}
+}
